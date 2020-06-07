@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Comic.ViewModels"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             x:Class="Comic.Views.StoryPage" xmlns:converter="clr-namespace:Comic.Converters">
+    <!--<ContentPage.BindingContext>
+        <local:PdfViewerViewModel />
+    </ContentPage.BindingContext>-->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Like" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <syncfusion:Toolbar x:Key="ToolbarSettings">
+                <syncfusion:Toolbar.Enabled>false
+                </syncfusion:Toolbar.Enabled>
+            </syncfusion:Toolbar>
+
+            <converter:TestConverter x:Key="TestConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+
+        <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" Toolbar = "{StaticResource ToolbarSettings}" />
+
+    </Grid>
+</ContentPage>

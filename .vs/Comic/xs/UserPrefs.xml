@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{E569DF6B-0FE4-4700-B3DB-D2489D08C578}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Comic/Views/StoriesListPage.xaml">
+    <Files>
+      <File FileName="Comic/App.xaml.cs" Line="14" Column="62" IsPinned="True" />
+      <File FileName="Comic/MainPage.xaml" />
+      <File FileName="Comic/ViewModels/PdfViewerViewModel.cs" />
+      <File FileName="Comic/Views/StoryPage.xaml" />
+      <File FileName="Comic/Views/StoryPage.xaml.cs" />
+      <File FileName="Comic/Views/StoriesListPage.xaml" Line="36" Column="135" />
+      <File FileName="Comic/Views/StoriesListPage.xaml.cs" />
+      <File FileName="Comic/Views/ReadStoryPage.xaml" />
+      <File FileName="Comic/Views/ReadStoryPage.xaml.cs" />
+      <File FileName="Comic/ViewModels/StoriesListViewModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Comic" expanded="True">
+            <Node name="Comic" expanded="True">
+              <Node name="Converters" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ReadStoryPage.xaml" expanded="True" />
+                <Node name="StoriesListPage.xaml" expanded="True" selected="True" />
+                <Node name="StoryPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="Comic.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="Comic.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Comic.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Comic.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9A21F8FE-162A-4B49-9482-C2F46A8C66A3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

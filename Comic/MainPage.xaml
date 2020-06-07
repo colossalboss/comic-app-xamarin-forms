@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="Comic.MainPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             xmlns:local="clr-namespace:Comic.ViewModels" xmlns:test="clr-namespace:Comic.Converters">
+
+
+    <ContentPage.BindingContext>
+        <local:PdfViewerViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <test:TestConverter x:Key="tester" />
+
+
+            <syncfusion:Toolbar x:Key="ToolbarSettings">
+                <syncfusion:Toolbar.Enabled>false
+                </syncfusion:Toolbar.Enabled>
+            </syncfusion:Toolbar>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <!-- Place new controls here -->
+        <!--<Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />-->
+        <!--<WebView Source="https://res.cloudinary.com/rumplestiltskin/image/upload/v1586827719/Ogbara_Godstar_Web_Developer_Resume_2018_Recovered_pmqflr.pdf" />-->
+        <!--<d:WebView Source="https://res.cloudinary.com/rumplestiltskin/image/upload/v1586827719/Ogbara_Godstar_Web_Developer_Resume_2018_Recovered_pmqflr.pdf" />-->
+
+        <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" Toolbar = "{StaticResource ToolbarSettings}" />
+    </Grid>
+</ContentPage>

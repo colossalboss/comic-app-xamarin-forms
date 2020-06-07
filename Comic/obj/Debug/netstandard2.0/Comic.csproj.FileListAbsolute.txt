@@ -1,0 +1,16 @@
+/Users/ogbaragodwin/Projects/Comic/Comic/bin/Debug/netstandard2.0/Comic.deps.json
+/Users/ogbaragodwin/Projects/Comic/Comic/bin/Debug/netstandard2.0/Comic.dll
+/Users/ogbaragodwin/Projects/Comic/Comic/bin/Debug/netstandard2.0/ref/Comic.dll
+/Users/ogbaragodwin/Projects/Comic/Comic/bin/Debug/netstandard2.0/Comic.pdb
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Views/StoriesListPage.xaml.g.cs
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Views/StoryPage.xaml.g.cs
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Comic.AssemblyInfoInputs.cache
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Comic.AssemblyInfo.cs
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Comic.dll
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/ref/Comic.dll
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Comic.pdb
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Views/ReadStoryPage.xaml.g.cs
+/Users/ogbaragodwin/Projects/Comic/Comic/obj/Debug/netstandard2.0/Comic.csprojAssemblyReference.cache

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Comic.Views.StoriesListPage"
+             xmlns:local="clr-namespace:Comic.ViewModels">
+
+    <ContentPage.BindingContext>
+        <local:StoriesListViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        
+        <ListView x:Name="StoriesList" ItemsSource="{Binding Stories}" HasUnevenRows="True" SelectionMode="Single" ItemTapped="StoriesList_Tapped">
+              <ListView.ItemTemplate>
+                  <DataTemplate>
+                      <ViewCell>
+                         <ContentView Margin="10">
+                              <Grid RowSpacing="0">
+                                  <Grid.RowDefinitions>
+                                      <RowDefinition Height="50" />
+                                      <RowDefinition Height="200" />
+                                      <RowDefinition Height="5" />
+                                  </Grid.RowDefinitions>
+                                  <Grid.ColumnDefinitions>
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                  </Grid.ColumnDefinitions>
+
+                                  <BoxView Color="#3F51B5"
+								        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" />
+                                  <Label Text="{Binding Name}" VerticalTextAlignment="Center" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" />
+
+                                  <BoxView Grid.Column="0" Grid.Row="1" HeightRequest="150" Color="AliceBlue" Grid.ColumnSpan="3" />
+                                  <Image Source="{Binding CoverImage}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="Gray" Aspect="AspectFill" VerticalOptions="FillAndExpand" HorizontalOptions="Center" />
+                                  <Label Text="{Binding Name}" HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" VerticalTextAlignment="Start" Margin="10" Grid.Row="1" Grid.ColumnSpan="3" />
+
+                                  <BoxView Color="#16CA86" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" />
+                              </Grid>
+                         </ContentView>
+                      </ViewCell>
+                  </DataTemplate>
+              </ListView.ItemTemplate>  
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
